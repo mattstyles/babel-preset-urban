@@ -6,6 +6,8 @@ module.exports = {
     require( 'babel-plugin-transform-es2015-function-name' ),
     require( 'babel-plugin-transform-es2015-arrow-functions' ),
     require( 'babel-plugin-transform-es2015-block-scoped-functions' ),
+    require( 'babel-plugin-transform-class-constructor-call' ),
+    require( 'babel-plugin-transform-class-properties' ),
     [ require( 'babel-plugin-transform-es2015-classes' ), { loose: false } ],
     require( 'babel-plugin-transform-es2015-object-super' ),
     require( 'babel-plugin-transform-es2015-shorthand-properties' ),
@@ -22,7 +24,6 @@ module.exports = {
     [ require( 'babel-plugin-transform-es2015-modules-commonjs' ), { loose: false } ],
     [ require( 'babel-plugin-transform-regenerator' ), { async: true, asyncGenerators: false } ],
     require( 'babel-plugin-transform-react-jsx' ),
-    require( 'babel-plugin-transform-class-properties' ),
     require( 'babel-plugin-transform-async-functions' )
   ]
 }
