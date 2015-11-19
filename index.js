@@ -23,7 +23,9 @@ module.exports = {
     require( 'babel-plugin-transform-es2015-typeof-symbol' ),
     [ require( 'babel-plugin-transform-es2015-modules-commonjs' ), { loose: false } ],
     [ require( 'babel-plugin-transform-regenerator' ), { async: true, asyncGenerators: false } ],
+    // [ require( 'babel-plugin-transform-async-to-module-method' ), { module: 'bluebird', method: 'coroutine' } ],
     require( 'babel-plugin-transform-react-jsx' ),
+    require( 'babel-plugin-transform-react-display-name' ),
     require( 'babel-plugin-transform-async-functions' )
   ]
 }

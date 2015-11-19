@@ -28,6 +28,7 @@
   "homepage": "https://github.com/mattstyles/babel-preset-urban",
   "dependencies": {
     "babel-plugin-transform-async-functions": "^6.0.14",
+    "babel-plugin-transform-async-to-module-method": "^6.1.18",
     "babel-plugin-transform-class-constructor-call": "^6.0.20",
     "babel-plugin-transform-class-properties": "^6.0.14",
     "babel-plugin-transform-es2015-arrow-functions": "^6.0.14",
@@ -49,6 +50,7 @@
     "babel-plugin-transform-es2015-template-literals": "^6.1.18",
     "babel-plugin-transform-es2015-typeof-symbol": "^6.0.15",
     "babel-plugin-transform-es2015-unicode-regex": "^6.1.18",
+    "babel-plugin-transform-react-display-name": "^6.1.18",
     "babel-plugin-transform-react-jsx": "^6.2.0",
     "babel-plugin-transform-regenerator": "^6.0.14"
   }
