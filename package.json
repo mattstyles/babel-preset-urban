@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-urban",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Babel preset for es2015, react, class props and async",
   "main": "index.js",
   "scripts": {
