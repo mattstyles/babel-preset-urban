@@ -18,3 +18,23 @@ npm i -D babel-preset-urban
   "presets": [ "urban" ]
 }
 ```
+
+## Polyfill
+
+The async transformation uses
+[regenerator](https://www.npmjs.com/package/regenerator) so any code
+transformed using this preset requires the runtime. The easiest way to
+include this is to use the
+[babel-polyfill](https://www.npmjs.com/package/babel-polyfill).
+
+The polyfill is **only** required if you actually write any `async`
+code.
+
+```sh
+npm i babel-polyfill
+```
+
+```js
+import 'babel-polyfill'
+```
+
