@@ -11,10 +11,10 @@ npm i -D babel-preset-urban
 
 ## Usage
 
-`.babelrc` recommended
+Add the following preset to your babel config
 
 ```json
-{
+"babel": {
   "presets": [ "urban" ]
 }
 ```
@@ -37,4 +37,3 @@ npm i babel-polyfill
 ```js
 import 'babel-polyfill'
 ```
-
